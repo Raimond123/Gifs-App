@@ -10,7 +10,12 @@ export class GifsService{
   }
 
   public searchTag(tag: string): void{
+    public indx: 0
+    for(;  indx < tag.length; indx++){
+
+    }
     this._tagsHistory.unshift(tag)
+    console.log(this.tagsHistory)
   }
 
 }
